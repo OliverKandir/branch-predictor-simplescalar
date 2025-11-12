@@ -15,7 +15,7 @@ This work connects to modern CPU–LLM interaction: large language models (LLMs)
 
 ## Compile C Programs (PISA Target)
 
-$IDIR/bin/sslittle-na-sstrix-gcc -O2 -o <output> <program>.c
+$IDIR/bin/sslittle-na-sstrix-gcc -O2 -o &lt;output&gt; &lt;program&gt;.c
 
 Example:
 $IDIR/bin/sslittle-na-sstrix-gcc -O2 -o 1 1.c
@@ -23,7 +23,7 @@ $IDIR/bin/sslittle-na-sstrix-gcc -O2 -o 1 1.c
 
 ## Analyze Branch Predictors
 
-$IDIR/simplesim-3.0/sim-outorder -bpred <predictor> <program>
+$IDIR/simplesim-3.0/sim-outorder -bpred &lt;predictor&gt; &lt;program&gt;
 
 Examples:
 $IDIR/simplesim-3.0/sim-outorder -bpred 2lev 1
