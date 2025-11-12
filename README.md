@@ -26,9 +26,9 @@ $IDIR/bin/sslittle-na-sstrix-gcc -O2 -o 1 1.c
 $IDIR/simplesim-3.0/sim-outorder -bpred &lt;predictor&gt; &lt;program&gt;
 
 Examples:
-$IDIR/simplesim-3.0/sim-outorder -bpred 2lev 1
-$IDIR/simplesim-3.0/sim-outorder -bpred bimod 1
-$IDIR/simplesim-3.0/sim-outorder -bpred comb 1
+$IDIR/simplesim-3.0/sim-outorder -bpred 2lev 1 <br>
+$IDIR/simplesim-3.0/sim-outorder -bpred bimod 1 <br>
+$IDIR/simplesim-3.0/sim-outorder -bpred comb 1 <br>
 
 
 ## Supported Predictors
