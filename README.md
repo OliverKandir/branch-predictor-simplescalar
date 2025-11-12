@@ -8,4 +8,3 @@ Both bpred_taken and bpred_nottaken are static branch predictors — they make f
 In our experiments, both predictors reported nearly identical bpred_dir_rate values because the benchmark programs executed within SimpleScalar exhibited a balanced mix of taken and not-taken branches.
     Since each run uses the same instruction stream and branch distribution, the ratio of correctly predicted branches for both static strategies becomes numerically similar.
     Additionally, SimpleScalar reports results rounded to four decimal places, which can make minor differences appear identical.
-
